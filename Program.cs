@@ -515,12 +515,8 @@ namespace Introduktion_C_
         }
 
 
+        
         /*
-        class QuestionCard
-        {
-            public String fråga;
-            public String svar;           
-        }
         public void Uppgift4620_steg4()
         {
             
@@ -557,10 +553,10 @@ namespace Introduktion_C_
                 }
             }
         }
+        
         */
 
-
-
+        
         public void Uppgift4620_steg5()
         {
             List<QuestionCard> frågekort = new List<QuestionCard>();
@@ -581,6 +577,8 @@ namespace Introduktion_C_
             card4 = new QuestionCard("Vad heter Danmarks huvudstad?", "köpenhamn");
             frågekort.Add(card4);
 
+        
+
             foreach (QuestionCard kort in frågekort)
             {
                 Console.WriteLine(kort.GetQuestion());
@@ -594,13 +592,12 @@ namespace Introduktion_C_
                     Console.WriteLine("Fel");
                 }
             }
-
-
-
-
-
-
         }
+        
+
+
+
+        
 
 
 

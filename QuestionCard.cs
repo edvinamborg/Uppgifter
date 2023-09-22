@@ -16,6 +16,7 @@ namespace Introduktion_C_
             fråga = f;
             svar = s;
         }
+
         public string GetQuestion()
         {
             return fråga;
